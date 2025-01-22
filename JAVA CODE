@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.myListView);
          seekBar = findViewById(R.id.seekBar);
 
-        seekBar.setMax(20);
+        seekBar.setMax(200);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
